@@ -6,3 +6,5 @@ print("i could have code like this.") # and the comment after is ignored 5
 print("this will run.")
 print("hi # there.")
 print('hi # there.')
+'''python is a object oriented scripting language
+python is a interpritate language'''
