@@ -1,0 +1,15 @@
+#what it does
+#Actual commands
+mkdir is used to make new directory
+cd is used to change the directory
+touch is used to update the access date and modification date of a file or directory
+vim is used to running external commands in a shell
+cat is used to concatenate file and redirect output in terminal or files
+ls is used to list files in a directory
+pwd is used to displays the shell's current working directory
+rmdir is used to removes the directory with the given name(the directory must be empty)
+cp is used for copies a file/directory
+mv is used for moves (or renames)a file/directory
+rm is used for deletes a file
+wc is used for output a count of the number of characters,lines,words etc.in a file
+du is used for report disk space used by a file/directory 
