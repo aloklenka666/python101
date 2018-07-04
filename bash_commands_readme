@@ -12,4 +12,8 @@ cp is used for copies a file/directory
 mv is used for moves (or renames)a file/directory
 rm is used for deletes a file
 wc is used for output a count of the number of characters,lines,words etc.in a file
-du is used for report disk space used by a file/directory 
+du is used for report disk space used by a file/directory
+diff is used for output differences between two files
+chmod is used for change the permissions on a file or group of files
+chown is used for change the owner of a file
+ 
