@@ -11,89 +11,89 @@ else:
 print("the largest number between",a,",",b,"and",c,"is",largest)
 #wap to implement all string functionalities and comment on each and everry function after looking at the result.
 str ="ALOK KUMAR LENKA"
-str.capitalize()
+print('str.capitalize()=',str.capitalize())
 #capitalize() - Returns the string with first letter capitalized and the rest lowercased.
-str.casefold()
+print('str.casefold()=',str.casefold())
 #casefold() - Returns a lowercase string, generally used for caseless matching. This is more aggressive than the lower() method.
-str.count('l')
+print('str.count()=',str.count('l'))
 #count() - Count the non-overlapping occurrence of supplied substring in the string.
-str.encode()
+print('str.encode()=',str.encode())
 #encode() - Return the encoded version of the string as a bytes object.
-str.endswith('o')
+print('str.endswith()=',str.endswith('K'))
 #endswith() - Returns ture if the string ends with the supplied substring.
-str.expandtabs()
+print('str.expandtabs()=',str.expandtabs())
 #expandtabs() - Return a string where all the tab characters are replaced by the supplied number of spaces.
-str.find('l')
+print('str.find()=',str.find('l'))
 #find() - Return the index of the first occurrence of supplied substring in the string. Return -1 if not found.
-str.format()
+print('str.format()=',str.format())
 #format() - Format the given string.
-str.format_map('k')
+print('str.format_map()=',str.format_map('k'))
 #format_map() - Format the given string.
-str.index('U')
+print('str.index()=',str.index('U'))
 #index() - Return the index of the first occurrence of supplied substring in the string. Raise ValueError if not found.
-str.isalnum()
+print('str.isalnum()=',str.isalnum())
 #isalnum() - Return true if the string is non-empty and all characters are alphanumeric.
-str.isalpha()
+print('str.isalpha()=',str.isalpha())
 #isalpha() - Return true if the string is non-empty and all characters are alphabetic.
-str.isdecimal()
+print('str.isdecimal()=',str.isdecimal())
 #isdecimal() - Return true if the string is non-empty and all characters are decimal characters.
-str.isdigit()
+print('str.isdigit()=',str.isdigit())
 #isdigit() - Return true if the string is non-empty and all characters are digits.
-str.isidentifier()
+print('str.isidentifier()=',str.isidentifier())
 #isidentifier() - Return true if the string is a valid identifier.
-str.islower()
+print('str.islower()=',str.islower())
 #islower() - Return true if the string has all lowercased characters and at least one is cased character.
-str.isnumeric()
+print('str.isnumeric()=',str.isnumeric())
 #isnumeric() - Return true if the string is non-empty and all characters are numeric.
-str.isprintable()
+print('str.isprintable()=',str.isprintable())
 #isprintable() - Return true if the string is empty or all characters are printable.
-str.isspace()
+print('str.isspace()=',str.isspace())
 #isspace() - Return true if the string is non-empty and all characters are whitespaces.
-str.istitle()
+print('str.istitle()=',str.istitle())
 #istitle() - Return true if the string is non-empty and titlecased.
-str.isupper()
+print('str.isupper()=',str.isupper())
 #isupper() - Return true if the string has all uppercased characters and at least one is cased character.
-str.join('k')
+print('str.join()=',str.join('k'))
 #join() - Concatenate strings in the provided iterable with separator between them being the string providing this method.
-str.ljust(3)
+print('str.ljust()=',str.ljust(3))
 #ljust() - Left justify the string in the provided width with optional fill characters.
-str.lower()
+print('str.lower()=',str.lower())
 #lower() - Return a copy of all lowercased string.
-str.lstrip()
+print('str.lstrip()=',str.lstrip())
 #lstrip() - Return a string with provided leading characters removed.
 #str.maketrans()
 #maketrans() - Return a translation table.
-str.partition('k')
+print('str.partition()=',str.partition('k'))
 #partition() - Partition the string at first occurrence of substring (separator) and return a 3-tuple with part before separator, the separator and part after separator.
 #str.replace()
 #replace() - Replace all old substrings with new substrings.
-str.rfind('U')
+print('str.rfind()=',str.rfind('U'))
 #rfind() - Return the index of the last occurrence of supplied substring in the string. Return -1 if not found.
-str.rindex('U')
+print('str.rindex()=',str.rindex('U'))
 #rindex() - Return the index of the last occurrence of supplied substring in the string. Raise ValueError if not found.
-str.rjust(3)
+print('str.rjust()=',str.rjust(3))
 #rjust() - Right justify the string in the provided width with optional fill characters.
-str.rpartition('K')
+print('str.rpartition()=',str.rpartition('K'))
 #rpartition() - Partition the string at last occurrence of substring (separator) and return a 3-tuple with part before separator, the separator and part after separator.
-str.rsplit()
+print('str.rsplit()=',str.rsplit())
 #rsplit() - Return a list of words delimited by the provided subtring. If maximum number of split is specified, it is done from the right.
-str.rstrip()
+print('str.rstrip()=',str.rstrip())
 #rstrip() - Return a string with provided trailing characters removed.
-str.split()
+print('str.split()=',str.split())
 #split() - Return a list of words delimited by the provided subtring. If maximum number of split is specified, it is done from the left.
-str.splitlines()
+print('str.splitlines()=',str.splitlines())
 #splitlines() - Return a list of lines in the string.
-str.startswith('K')
+print('str.startswith()=',str.startswith('K'))
 #startswith() - Return true if the string starts with the provided substring.
-str.strip()
+print('str.strip()=',str.strip())
 #strip() - Return a string with provided leading and trailing characters removed.
-str.swapcase()
+print('str.swapcase()=',str.swapcase())
 #swapcase() - Return a string with lowercase characters converted to uppercase and vice versa.
-str.title()
+print('str.title()=',str.title())
 #title() - Return a title (first character of each word capitalized, others lowercased) cased string.
-str.translate('L')
+print('str.translate()=',str.translate('L'))
 #translate() - Return a copy of string that has been mapped according to the provided map.
-str.upper()
+print('str.upper()=',str.upper())
 #upper() - Return a copy of all uppercased string.
-str.zfill(3)
+print('str.zfill()=',str.zfill(3))
 #zfill() - Return a numeric string left filled with zeros in the provided width.
