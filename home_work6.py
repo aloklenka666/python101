@@ -97,3 +97,10 @@ print('str.upper()=',str.upper())
 #upper() - Return a copy of all uppercased string.
 print('str.zfill()=',str.zfill(3))
 #zfill() - Return a numeric string left filled with zeros in the provided width.
+#wap to find square root of a number using input form users
+import math
+number = int(input("Enter the number to find the square root:"))
+if number<0:
+ print("enter avalid number.")
+else:
+ print("square root of {} is {}".format(number,math.sqrt(number))) 
