@@ -1,1 +1,0 @@
-print("ALOK KUMAR LENKA")
